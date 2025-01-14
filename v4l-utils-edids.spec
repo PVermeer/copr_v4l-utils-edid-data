@@ -1,6 +1,6 @@
 Name: v4l-utils-edids
 Version: 0.0.0
-Release: %{?dist}
+Release: 1%{?dist}
 License: GPLv2+ and GPLv2
 Summary: RPM package to install the decoded edids from https://git.linuxtv.org/v4l-utils.git on immutable filesystems.
 Url: https://git.linuxtv.org/v4l-utils.git/tree/utils/edid-decode/data
