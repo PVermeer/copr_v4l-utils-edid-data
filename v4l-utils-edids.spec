@@ -5,6 +5,8 @@ License: GPLv2+ and GPLv2
 Summary: RPM package to install the decoded edids from https://git.linuxtv.org/v4l-utils.git on immutable filesystems.
 Url: https://git.linuxtv.org/v4l-utils.git/tree/utils/edid-decode/data
 
+BuildRequires: git
+
 %description
 RPM package to install the decoded edids from https://git.linuxtv.org/v4l-utils.git
 
