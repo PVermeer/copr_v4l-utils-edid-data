@@ -10,7 +10,7 @@ BuildRequires: git
 %description
 RPM package to install the decoded edids from https://git.linuxtv.org/v4l-utils.git
 
-%define installdir /usr/lib
+%define installdir /usr/lib/firmware/edid
 
 %prep
 # Get chromebook-linux-audio script
@@ -19,8 +19,8 @@ git clone https://git.linuxtv.org/v4l-utils.git
 %build
 
 %install
-mkdir -p $RPM_BUILD_ROOT/%{installdir}/firmware/edid
-mv %{_builddir}/v4l-utils/utils/edid-decode/data/* $RPM_BUILD_ROOT/%{installdir}/firmware/edid
+mkdir -p $RPM_BUILD_ROOT/%{installdir}
+mv %{_builddir}/v4l-utils/utils/edid-decode/data/* $RPM_BUILD_ROOT/%{installdir}
 
 %files
 %{installdir}
