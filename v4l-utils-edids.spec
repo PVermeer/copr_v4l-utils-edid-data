@@ -3,7 +3,7 @@
 %global shortcommit %(echo -n %{commit} | head -c 8)
 
 Name: v4l-utils-edids
-Version: 0.0.2
+Version: 0.0.3
 Release: %{shortcommit}%{?dist}
 License: GPLv2+ and GPLv2 and MIT
 Summary: RPM package to install the decoded edids from https://git.linuxtv.org/v4l-utils.git on immutable filesystems.
