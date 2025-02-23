@@ -14,7 +14,7 @@ BuildRequires: git
 %description
 RPM package to install the decoded edids from https://git.linuxtv.org/v4l-utils.git
 
-%define installdir %{_libdir}/firmware/edid
+%define installdir /usr/lib/firmware/edid
 %define workdir %{_builddir}/%{name}
 
 %prep
