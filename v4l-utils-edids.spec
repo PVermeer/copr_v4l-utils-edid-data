@@ -6,7 +6,7 @@
 %global author pvermeer
 %global source v4l-utils
 %global sourcerepo https://git.linuxtv.org/v4l-utils.git
-%global commit c363e9aa6d7047e4bdfb68a96fddde884c63487d
+%global commit 2a91a869eb8a2e2665881353a4e6bcb72e3b51b7
 %global versioncommit %(echo -n %{commit} | head -c 8)
 
 # Own copr repo
@@ -14,8 +14,8 @@
 %global coprsource copr_v4l-utils-edid-data
 
 Name: v4l-utils-edids
-Version: 0.0.3
-Release: %{versioncommit}%{?dist}
+Version: 0.0.4
+Release: 1.%{versioncommit}%{?dist}
 License: GPLv2+ and GPLv2 and MIT
 Summary: RPM package to install the decoded edids from https://git.linuxtv.org/v4l-utils.git on immutable filesystems.
 Url: https://git.linuxtv.org/v4l-utils.git/tree/utils/edid-decode/data
